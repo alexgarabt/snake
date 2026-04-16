@@ -1,61 +1,42 @@
-# Terminal Pacman 🟡
+# Snake
 
-A terminal-based implementation of the classic Pacman arcade game using ASCII graphics and ANSI escape sequences.
+A minimal implementation of the classic Snake game, written in vanilla 
+JavaScript and HTML5 Canvas. No dependencies, no build step — just open 
+`index.html` in your browser and play.
 
-## Overview
+## Controls
 
-This project recreates the Pacman experience in the terminal, featuring authentic ghost AI behaviors, smooth rendering, and all the classic game mechanics. Built with Python, it demonstrates advanced terminal manipulation techniques and clean game architecture.
+- Arrow keys to move
+- `P` to pause
+- `R` to restart after game over
 
-## Technical Scope
+## Features
 
-- **Rendering Engine**: Custom ANSI-based renderer with double-buffering
-- **Game Logic**: Complete Pacman rules, scoring, and level progression  
-- **Ghost AI**: Faithful recreation of Blinky, Pinky, Inky, and Clyde behaviors
-- **Input System**: Non-blocking keyboard controls
-- **Performance**: Optimized for smooth terminal gameplay
+- Smooth 60 FPS rendering
+- Progressive difficulty (speed increases with score)
+- Local high score saved in `localStorage`
+- Responsive canvas that adapts to window size
 
-## Architecture
+## Running locally
 
+Clone the repo and open `index.html`. That's it.
+
+```bash
+git clone https://github.com/alexgarabt/snake-game.git
+cd snake-game
+open index.html
 ```
-Game Engine ──► Renderer ──► Terminal
-     │
-State Manager
-     │
-Game Objects / AI System / Input Handler
-```
+## Roadmap
 
-The modular design separates game logic from rendering and I/O, making the codebase easy to understand and extend.
-
-## Requirements
-
-- Python 3.7+
-- Terminal with ANSI escape sequence support
-- 80x24 character window minimum
-
-## Development Status
-
-🚧 **Under Active Development**
-
-- [x] Core rendering engine
-- [x] Maze system
-- [ ] Player controls and collision
-- [ ] Ghost AI implementation
-- [ ] Scoring and power-ups
-- [ ] Sound effects and polish
+- [ ] Mobile touch controls
+- [ ] Sound effects
+- [ ] Multiplayer mode (maybe?)
 
 ## Contributing
 
-Contributions welcome! Key areas include game mechanics, AI improvements, testing, and cross-platform support. See [CONTRIBUTING.md](CONTRIBUTING.md) for guidelines.
-
-## References
-
-- [The Pac-Man Dossier](https://www.gamasutra.com/view/feature/3938/the_pacman_dossier.php) - Original game mechanics
-- [ANSI Escape Sequences](https://en.wikipedia.org/wiki/ANSI_escape_code) - Terminal control reference
+Issues and PRs welcome. This is a learning project, so explanations 
+and improvements are especially appreciated.
 
 ## License
 
-MIT License - See [LICENSE](LICENSE)
-
----
-
-*Building the classic arcade experience, one character at a time.*
+MIT
