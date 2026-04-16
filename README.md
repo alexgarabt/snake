@@ -1,41 +1,54 @@
 # Snake
 
-A minimal implementation of the classic Snake game, written in vanilla 
-JavaScript and HTML5 Canvas. No dependencies, no build step — just open 
-`index.html` in your browser and play.
+Snake is a small browser game project intended to be implemented with
+vanilla JavaScript and HTML5 Canvas.
 
-## Controls
+## Repository Status
 
-- Arrow keys to move
-- `P` to pause
-- `R` to restart after game over
+The current `main` branch contains project documentation only. The game
+implementation described below is planned work and has not been committed
+yet.
 
-## Features
+## Planned Scope
 
-- Smooth 60 FPS rendering
-- Progressive difficulty (speed increases with score)
-- Local high score saved in `localStorage`
-- Responsive canvas that adapts to window size
+- Keyboard-driven Snake gameplay in the browser
+- Canvas-based rendering with no runtime dependencies
+- Progressive difficulty as the score increases
+- Local high score persistence through `localStorage`
+- Responsive sizing for desktop and mobile browsers
 
-## Running locally
+## Running Locally
 
-Clone the repo and open `index.html`. That's it.
+Clone the repository locally:
 
 ```bash
-git clone https://github.com/alexgarabt/snake-game.git
-cd snake-game
-open index.html
+git clone https://github.com/alexgarabt/snake.git
+cd snake
 ```
+
+There is no runnable game entry point in the current branch yet.
+
+## Author
+
+This project is maintained by [alexgarabt](https://github.com/alexgarabt),
+a self-taught developer building public learning projects in open source.
+
+For other public work by the author, refer to the GitHub profile instead
+of duplicating a repository list in this README:
+
+- https://github.com/alexgarabt
+
 ## Roadmap
 
-- [ ] Mobile touch controls
-- [ ] Sound effects
-- [ ] Multiplayer mode (maybe?)
+- [ ] Commit the first playable browser build
+- [ ] Add mobile touch controls
+- [ ] Add sound effects
+- [ ] Explore multiplayer support
 
 ## Contributing
 
-Issues and PRs welcome. This is a learning project, so explanations 
-and improvements are especially appreciated.
+Issues and pull requests are welcome. Clear explanations, focused
+refactors, and tests for new behavior are especially appreciated.
 
 ## License
 
