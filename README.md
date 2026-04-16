@@ -28,13 +28,14 @@ cd snake
 
 There is no runnable game entry point in the current branch yet.
 
-## Author
+## Credits and Maintainer
 
 This project is maintained by [alexgarabt](https://github.com/alexgarabt),
 a self-taught developer building public learning projects in open source.
 
-For other public work by the author, refer to the GitHub profile instead
-of duplicating a repository list in this README:
+The maintainer's public GitHub profile is the canonical source for
+repository ownership and other public work instead of duplicating a
+manually curated repository list in this README:
 
 - https://github.com/alexgarabt
 
